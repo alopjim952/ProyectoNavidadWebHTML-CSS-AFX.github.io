@@ -1,0 +1,24 @@
+/* DOCUMENTO DE SEGURIDAD */
+.seguridad {
+    background-image: url("../img/cuerpo/fondo.png");
+    background-size: 150%;
+    animation: bganimation 14s infinite;
+    margin-left: -1px;
+}
+@keyframes bganimation {
+    0%{
+        background-position: 0% 100%;
+    }
+    50%{
+        background-position: 50% 10%;
+    }
+    100%{
+        background-position: 0% 100%;
+    }
+}
+
+.seguridad h1 {
+    text-align: center;
+    margin: 290px 0px;
+    font-family: "Audiowide"
+}

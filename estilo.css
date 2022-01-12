@@ -1,0 +1,342 @@
+/* Imagen de fondo */
+body {
+    background-image: url("img/cuerpo/fondo.png");
+    background-size: 150%;
+    animation: bganimation 28s infinite;
+    margin-left: -1px;
+}
+@keyframes bganimation {
+    0%{
+        background-position: 0% 100%;
+    }
+    50%{
+        background-position: 50% 10%;
+    }
+    100%{
+        background-position: 0% 100%;
+    }
+}
+
+/* BANNER - LOGUEO */
+.head {
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin-top: -8px;
+    position: fixed;
+    background-image: linear-gradient(125deg, rgb(187, 12, 12), rgb(241, 241, 55), rgb(93, 236, 79), rgb(87, 253, 253));
+    background-size: 200%;
+    animation: bganimation 7s infinite;
+}
+
+/* LOGUEO */
+.formulario {
+    margin-left: 900px;
+    margin-top: -170px;        
+}
+
+/* IMAGEN BANNER */
+.disco {
+    margin-top: 10px;
+}
+
+/* CAJAS LOGUEO */
+#usuario2, #contrasena2 {
+    height: 20px;
+}
+
+/* IMAGEN USER */
+#usuario1 {
+    margin-left: -30px;
+    margin-bottom: 113px;
+}
+
+/* IMAGEN PASSWORD */
+#contrasena1 {
+    margin-left: -33px;
+    margin-bottom: 70px;
+}
+
+/* CAJAS DE LOGUEO */
+.acceso {
+    margin-left: 40px;
+    text-decoration: none;
+    margin-right: 76px;
+    margin-bottom: 20px;
+}
+
+/* IMÁGENES LOGUEO */
+.img {
+    margin-top: 30px;
+    margin-bottom: -160px;
+}
+
+/* BOTÓN ENVIAR */
+#enviar {
+    background-color: rgb(243, 117, 117);
+    height: 30px;
+    width: 70px;
+    margin-left: 870px;
+}
+
+/* RATÓN SOBRE BOTÓN ENVIAR */
+#enviar:hover {
+    background-color: rgb(50, 197, 99);
+}
+
+/* IMAGENES TEMÁTICA EN MEDIO */
+.guitar {
+    margin-right: 66.6%;
+    padding-top: 406px;
+    position: static;
+    background-image: url(img/imagenes/guitar.jpg);
+    background-size: 120%;
+    animation: bganimation 14s infinite;
+}
+
+.nota {
+    margin-left: 33.3%;
+    margin-right: 33.3%;
+    margin-top: -250px;
+    padding-top: 250px;
+    position: static;
+    background-image: url(img/imagenes/nota.jpg);
+    background-size: 135%;
+    animation: bganimation 14s infinite;
+}
+
+.oso {
+    margin-left: 66.6%;
+    margin-top: -252px;
+    padding-right: 456px;
+    padding-top: 252px;
+    position: static;
+    background-image: url(img/imagenes/oso.jpg);
+    background-size: 130%;
+    animation: bganimation 14s infinite;
+}
+
+/* INFORMACIÓN E IMÁGENES */
+.noticias {
+    position: static;
+    margin: 20px 700px 10px 50px;
+    padding: 10px;
+    height: 460px;
+    width: 550px;
+    overflow: auto;
+}
+
+h3, h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.noticias p {
+    font-size: 110%;
+    line-height: 25px;
+}
+
+/* MENÚ */
+.lista {
+    position: static;
+    margin: -450px 200px 0px 900px;
+    list-style: none;
+    padding: 0px;
+}
+
+/* OPCIONES MENÚ */
+.lista li {
+    border: 1px solid rgb(197, 87, 22);
+    border-radius: 50px;
+    text-align: center;
+    padding: 30px 30px;
+    background-color: rgb(197, 87, 22);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: 0.6s;
+}
+
+/* TEXTO DEL MENÚ */
+.enlaces {
+    text-decoration: none;
+    color: rgb(204, 24, 18);
+}
+
+/* RATÓN SOBRE LAS OPCIONES */
+.lista li:hover {
+    background-color: rgb(245, 162, 53);
+    color:rgb(50, 197, 99);
+    border: 1px solid rgb(245, 162, 53);
+}
+
+/* MENÚ DE DISCOS */
+.elecciones {
+    position: static;
+    padding-bottom: 130px;
+    margin-right: -8px;
+    margin-top: -55px;
+}
+
+/* NOMBRE DE DISCOS */
+.opciones2 {
+    margin-top: 150px;
+    list-style: none;
+}
+
+.opciones2 li {
+    float: left;
+    margin: 51px 51px 0px 51px;
+    font-family: Papyrus;
+    font-size: 13px;
+}
+
+/* CINEMA */
+.cinema1 {
+    list-style: none;
+    display: block;
+    margin: 50px 1160px 200px 60px;
+    background-image: url("img/discos/CINEMA.jpg");
+    background-size: 300%;
+    animation: bganimation 7s infinite;
+}
+
+.cinema1 li {
+    margin-left: -40px;
+    text-align: center;
+    padding: 10px 0px;
+    transition: 0.6s;
+} 
+
+.cinema1 li:hover {
+    transform: scale(1.4,1.4);
+}
+
+/* DESDE EL FIN DEL MUNDO */
+.findelmundo1 {
+    list-style: none;
+    display: block;
+    margin: -536px 860px 0px 260px;
+    background-image: url("img/discos/DESDE\ EL\ FIN\ DEL\ MUNDO.jpg");
+    background-size: 200%;
+    animation: bganimation 7s infinite;
+}
+
+.findelmundo1 li {
+    margin-left: -40px;
+    text-align: center;
+    padding: 10px 0px;
+    transition: 0.6s;
+} 
+
+.findelmundo1 li:hover {
+    transform: scale(1.4,1.4);
+}
+
+/* THE GOOD TRIP */
+.tgt1 {
+    list-style: none;
+    display: block;
+    margin: -280px 620px 0px 595px;
+    background-image: url("img/discos/TGT.jpg");
+    background-size: 300%;
+    animation: bganimation 7s infinite;
+}
+
+.tgt1 li {
+    margin-left: -40px;
+    text-align: center;
+    padding: 10px 0px;
+    transition: 0.6s;
+} 
+
+.tgt1 li:hover {
+    transform: scale(1.4,1.4);
+}
+
+/* EL DISKO */
+.eldisko1 {
+    list-style: none;
+    display: block;
+    margin: -280px 400px 0px 800px;
+    background-image: url("img/discos/EL\ DISKO.jpg");
+    background-size: 200%;
+    animation: bganimation 7s infinite;
+}
+
+.eldisko1 li {
+    margin-left: -40px;
+    text-align: center;
+    padding: 10px 0px;
+    transition: 0.6s;
+} 
+
+.eldisko1 li:hover {
+    transform: scale(1.4,1.4);
+}
+
+/* ATRAPADO EN LAS COLINAS */
+.atrapado1 {
+    list-style: none;
+    display: block;
+    margin: -220px 80px 0px 1015px;
+    background-image: url("img/discos/ATRAPADO\ EN\ LAS\ COLINAS.jpg");
+    background-size: 200%;
+    animation: bganimation 7s infinite;
+}
+
+.atrapado1 li {
+    margin-left: -40px;
+    text-align: center;
+    padding: 10px 0px;
+    transition: 0.6s;
+} 
+
+.atrapado1 li:hover {
+    transform: scale(1.4,1.4);
+}
+
+/* PIE DE PÁGINA */
+.footer {
+    position: static;
+    margin-right: -8px;
+    display: inline;
+    background-color: rgb(143, 143, 153);
+    display: flex;
+    margin-bottom: -10px;
+}
+
+/* NOMBRE Y UBICACIÓN */
+.footer > .info {
+    margin-left: 70px;
+}
+
+.info {
+    margin-top: -6px;
+    margin-right: 600px;
+    font-size: 95%;
+    font-family: "Audiowide";
+}
+
+a {
+    text-decoration: none;
+}
+
+/* BOTONES DE CONTACTO */
+.contacto {
+    list-style: none;
+    height: 57px;
+    width: 259px;
+    padding-left: 0px;
+}
+
+.contacto li {
+    float: left;
+    padding: 8px 8px;
+    margin: 0px 15px;
+    transition: 0.6s;
+}
+
+.contacto li:hover {
+    transform: scale(1.2,1.2);
+}
+
+.contacto li .twitter:hover {
+    transform: scale(1.4,1.4);
+}

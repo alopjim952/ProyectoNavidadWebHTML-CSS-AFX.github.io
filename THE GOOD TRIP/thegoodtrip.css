@@ -1,0 +1,187 @@
+/* Imagen de fondo */
+body {
+    background-image: url("../img/cuerpo/fondo.png");
+    background-size: 150%;
+    animation: bganimation 56s infinite;
+    margin-left: -1px;
+}
+@keyframes bganimation {
+    0%{
+        background-position: 0% 100%;
+    }
+    50%{
+        background-position: 50% 10%;
+    }
+    100%{
+        background-position: 0% 100%;
+    }
+}
+
+/* BANNER - LOGUEO */
+.head3 {
+    padding-bottom: 10px;
+    padding-right: 10px;
+    position: fixed;
+    margin-top: -250px;
+    background-image: linear-gradient(125deg, rgb(187, 12, 12), rgb(241, 241, 55), rgb(93, 236, 79), rgb(87, 253, 253));
+    background-size: 200%;
+    animation: bganimation 7s infinite;
+}
+/* LOGUEO */
+.formulario {
+    margin-left: 900px;
+    margin-top: -170px;        
+}
+
+/* IMAGEN BANNER */
+.disco {
+    margin-top: 10px;
+}
+
+/* CAJAS LOGUEO */
+#usuario2, #contrasena2 {
+    height: 20px;
+}
+
+/* IMAGEN USER */
+#usuario1 {
+    margin-left: -30px;
+    margin-bottom: 113px;
+}
+
+/* IMAGEN PASSWORD */
+#contrasena1 {
+    margin-left: -33px;
+    margin-bottom: 70px;
+}
+
+/* CAJAS DE LOGUEO */
+.acceso {
+    margin-left: 40px;
+    text-decoration: none;
+    margin-right: 76px;
+    margin-bottom: 20px;
+}
+
+/* IMÁGENES LOGUEO */
+.img {
+    margin-top: 30px;
+    margin-bottom: -160px;
+}
+
+/* BOTÓN ENVIAR */
+#enviar {
+    background-color: rgb(243, 117, 117);
+    height: 30px;
+    width: 70px;
+    margin-left: 870px;
+}
+
+/* RATÓN SOBRE BOTÓN ENVIAR */
+#enviar:hover {
+    background-color: rgb(50, 197, 99);
+}
+
+/* DOCUMENTO THE GOOD TRIP */
+/* Título, texto de abajo y foto */
+.arribaTheGoodTrip {
+    position: static;
+    margin: 250px 13% 0px 13%;
+}
+
+.arribaTheGoodTrip h1 {
+    font-size: 270%;
+}
+
+/* Cuerpo */
+.cuerpoTheGoodTrip {
+    position: static;
+    margin: 50px 22%;
+}
+
+.cuerpoTheGoodTrip h1 {
+    color: rgb(48, 140, 177);
+}
+
+.arribaTheGoodTrip p, .cuerpoTheGoodTrip p {
+    font-size: 110%;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 27px;
+}
+
+/* Referencia */
+h3, .referencia {
+    font-family: "Audiowide";
+}
+
+/* PIE DE PÁGINA */
+.footer {
+    position: static;
+    margin-right: -8px;
+    display: inline;
+    background-color: rgb(143, 143, 153);
+    display: flex;
+    margin-bottom: -10px;
+}
+
+/* NOMBRE Y UBICACIÓN */
+.footer > .info {
+    margin-left: 70px;
+}
+
+.info {
+    margin-top: -6px;
+    margin-right: 600px;
+    font-size: 95%;
+    font-family: "Audiowide";
+}
+
+/* ENLACE SEGURIDAD */
+a {
+    text-decoration: none;
+}
+
+/* DOCUMENTO DE SEGURIDAD */
+.seguridad {
+    background-image: linear-gradient(125deg, rgb(187, 12, 12), rgb(14, 16, 185), rgb(14, 66, 9), rgb(18, 61, 61));
+    background-size: 500%;
+    animation: bganimation 0.1s infinite;
+    overflow: hidden;
+}
+
+.seguridad h1 {
+    text-align: center;
+    margin: 60px 0px;
+}
+
+.em {
+    margin-left: 47.5%;
+    font-size: 300%;
+}
+
+#xd {
+    margin-bottom: 400px;
+}
+
+/* BOTONES DE CONTACTO */
+.contacto {
+    list-style: none;
+    height: 57px;
+    width: 259px;
+    padding-left: 0px;
+}
+
+.contacto li {
+    float: left;
+    padding: 8px 8px;
+    margin: 0px 15px;
+    transition: 0.6s;
+}
+
+.contacto li:hover {
+    transform: scale(1.2,1.2);
+}
+
+.contacto li .twitter:hover {
+    transform: scale(1.4,1.4);
+}
