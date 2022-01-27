@@ -31,12 +31,14 @@ body {
 /* LOGUEO */
 .formulario {
     margin-left: 900px;
-    margin-top: -170px;        
+    margin-top: -170px;
+    float: right;       
 }
 
 /* IMAGEN BANNER */
 .disco {
     margin-top: 10px;
+    float: left;
 }
 
 /* CAJAS LOGUEO */
@@ -75,7 +77,8 @@ body {
     background-color: rgb(243, 117, 117);
     height: 30px;
     width: 70px;
-    margin-left: 870px;
+    margin-left: 720px;
+    margin-top: 100px;
 }
 
 /* RATÓN SOBRE BOTÓN ENVIAR */

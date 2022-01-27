@@ -27,15 +27,18 @@ body {
     background-size: 200%;
     animation: bganimation 7s infinite;
 }
+
 /* LOGUEO */
 .formulario {
     margin-left: 900px;
-    margin-top: -170px;        
+    margin-top: -170px;
+    float: right;       
 }
 
 /* IMAGEN BANNER */
 .disco {
     margin-top: 10px;
+    float: left;
 }
 
 /* CAJAS LOGUEO */
@@ -74,7 +77,8 @@ body {
     background-color: rgb(243, 117, 117);
     height: 30px;
     width: 70px;
-    margin-left: 870px;
+    margin-left: 720px;
+    margin-top: 100px;
 }
 
 /* RATÓN SOBRE BOTÓN ENVIAR */
@@ -110,17 +114,13 @@ body {
 
 /* Letra E */
 .e {
-    display: block;
+    float: left;
     font-size: 350%;
-    margin: 50px 15px 10px 0px;
+    margin: 15px 5px 10px 0px;
 }
 
-/* Primer párrafo */ 
-.texto {
-    display: block;
-    margin-left: 45px;
-    margin-top: -53px;
-}
+/* Primer párrafo */
+
 
 /* Referencia */
 h3, .referencia {
@@ -135,6 +135,7 @@ h3, .referencia {
     background-color: rgb(143, 143, 153);
     display: flex;
     margin-bottom: -10px;
+    clear: both;
 }
 
 /* NOMBRE Y UBICACIÓN */
